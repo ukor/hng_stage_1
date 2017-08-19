@@ -15,3 +15,8 @@ require __DIR__."/../../vendor/autoload.php";
  * Import the installation file
  */
 require __DIR__."/../install/install.php";
+
+/**
+ * Import the application file
+ */
+require __DIR__."/../crud/crud.php";

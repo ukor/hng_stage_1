@@ -90,7 +90,7 @@ class install extends database_handler
             }
             if ($this->count > 0)
             {
-                return print_r("%s data where inserted", $this->count);
+                return printf("%d data where inserted", $this->count);
             }
             else{
                 return false;

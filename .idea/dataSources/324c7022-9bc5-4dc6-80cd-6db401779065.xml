@@ -12,5 +12,27 @@
     <schema id="6" parent="1" name="me_xpression_x"/>
     <schema id="7" parent="1" name="mysql"/>
     <schema id="8" parent="1" name="performance_schema"/>
+    <table id="9" parent="2" name="dummy_table"/>
+    <column id="10" parent="9" name="id">
+      <Position>1</Position>
+      <DataType>bigint(9)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="11" parent="9" name="token">
+      <Position>2</Position>
+      <DataType>varchar(35)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="12" parent="9" name="hash">
+      <Position>3</Position>
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="13" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>
