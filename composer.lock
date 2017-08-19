@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "438005aff659ad8d5d1e414e7b6108ff",
+    "packages": [
+        {
+            "name": "ukorjidechi/php-pdo-wrapper",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ukor/php-pdo-wrapper.git",
+                "reference": "e90e6e332bbb09316e3fd09daf4a3521ccf458e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ukor/php-pdo-wrapper/zipball/e90e6e332bbb09316e3fd09daf4a3521ccf458e9",
+                "reference": "e90e6e332bbb09316e3fd09daf4a3521ccf458e9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ukorJidechi\\php_pdo_wrapper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ukor Jidechi Ekundayo",
+                    "email": "ukorjidechi@gmail.com"
+                }
+            ],
+            "description": "Simple, minimal PHP PDO wrapper designed to ease developing, code readability and saving development time and effort.",
+            "keywords": [
+                "database",
+                "driver",
+                "pdo",
+                "sql"
+            ],
+            "time": "2017-05-11T12:43:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

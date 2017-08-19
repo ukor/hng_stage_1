@@ -1,0 +1,20 @@
+{
+    "name": "ukorjidechi/php_pdo_wrapper",
+    "description": "Simple, minimal PHP PDO wrapper designed to ease developing, code readability and saving development time and effort.",
+    "keywords": ["database", "driver", "PDO", "SQL"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ukor Jidechi Ekundayo",
+            "email": "ukorjidechi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "php": ">=5.4"
+    },
+  "autoload": {
+    "psr-4": { "ukorJidechi\\php_pdo_wrapper\\": "src/" }
+  }
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "name": "ukorjidechi/php-pdo-wrapper",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ukor/php-pdo-wrapper.git",
+            "reference": "e90e6e332bbb09316e3fd09daf4a3521ccf458e9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ukor/php-pdo-wrapper/zipball/e90e6e332bbb09316e3fd09daf4a3521ccf458e9",
+            "reference": "e90e6e332bbb09316e3fd09daf4a3521ccf458e9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2017-05-11T12:43:03+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ukorJidechi\\php_pdo_wrapper\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ukor Jidechi Ekundayo",
+                "email": "ukorjidechi@gmail.com"
+            }
+        ],
+        "description": "Simple, minimal PHP PDO wrapper designed to ease developing, code readability and saving development time and effort.",
+        "keywords": [
+            "database",
+            "driver",
+            "pdo",
+            "sql"
+        ]
+    }
+]
