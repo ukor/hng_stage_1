@@ -1,0 +1,1 @@
+This was created for the HNG internship. All it does is to extract data from the database and display the raw data. 
